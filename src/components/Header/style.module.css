@@ -1,0 +1,27 @@
+.container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(129, 126, 126);
+    padding: 1.2rem;
+}
+
+.container > nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container > nav > ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 1rem;
+    color: rgb(207, 205, 205);
+}
+
+.nav_item {
+    margin-left: 4rem;
+}

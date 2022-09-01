@@ -1,0 +1,13 @@
+.container {
+    margin: 1rem 2.2rem;
+    padding: 1.2rem;
+    background-color: rgb(172, 171, 171);
+}
+
+.container p {
+    margin: 0.75rem 0;
+}
+
+.container > p > span {
+    opacity: .5;
+}

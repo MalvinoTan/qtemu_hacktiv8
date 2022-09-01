@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    margin: 1rem 2.3rem;
+    padding: 1.2rem;
+    background-color: rgb(172, 171, 171);
+}
+
+.img {
+    background-color: gray;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.details {
+    margin-left: 1.5rem;
+}
+
+.details > p {
+    margin-top: 1rem;
+}

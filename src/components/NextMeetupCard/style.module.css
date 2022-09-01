@@ -1,0 +1,9 @@
+.container {
+    margin: 1rem 2.3rem;
+    padding: 1.2rem;
+    background-color: rgb(172, 171, 171);
+}
+
+.date {
+    opacity: 0.5;
+}
