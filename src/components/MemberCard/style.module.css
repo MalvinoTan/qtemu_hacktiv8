@@ -2,7 +2,8 @@
     display: flex;
     margin: 1rem 2.3rem;
     padding: 1.2rem;
-    background-color: rgb(172, 171, 171);
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
 
 .img {
