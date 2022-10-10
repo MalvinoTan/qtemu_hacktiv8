@@ -24,4 +24,9 @@
 
 .nav_item {
     margin-left: 4rem;
+    cursor: pointer;
+}
+
+.login {
+    cursor: pointer;
 }
