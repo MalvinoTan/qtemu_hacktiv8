@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import styles from "./style.module.css";
 
 /** Components */
@@ -11,13 +10,6 @@ import RecentMeetupCard from '../../components/RecentMeetupCard';
 import SectionTitle from '../../components/SectionTitle';
 
 const Home = () => {
-
-  const [menus, setMenus] = useState([]);
-
-  useEffect(() => {
-    setMenus(['Create Meetup', 'Explore']);
-  }, []);
-
   return (
     <div>
       <RecentMeetupCard 

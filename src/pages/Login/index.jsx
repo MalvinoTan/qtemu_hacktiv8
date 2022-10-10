@@ -4,7 +4,12 @@ import Swal from "sweetalert2";
 import styles from "./style.module.css";
 
 const Login = () => {
+
     const navigate = useNavigate();
+    
+    if (localStorage.getItem("token")) {
+        navigate("/");
+    }
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
